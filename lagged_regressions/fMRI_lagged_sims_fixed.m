@@ -110,7 +110,7 @@ w_values = [0.406284885
 nsubs = length(w_values);
 
 %number of sims
-nsims = 2;
+nsims = 500;
 
 %start measuring the time it takes to run the whole thing
 tic;
