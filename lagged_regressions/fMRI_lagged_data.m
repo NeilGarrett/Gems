@@ -16,7 +16,7 @@ clc;
 clear all;
 close all;
 
-data = readtable('/Users/neil/Dropbox/Summerfield_Lab/ValueInference/manuscript/fmri/data/gem_dat.csv');
+data = readtable('data/gem_dat_fMRI.csv');
 
 %remove exclusions
 % data = data(~isnan(data.chooseLeft),:);
