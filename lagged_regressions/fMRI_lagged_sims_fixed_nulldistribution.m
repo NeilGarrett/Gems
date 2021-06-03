@@ -476,7 +476,7 @@ hist(stats_difference.estimate_interaction);
 quantile(stats_difference.tstat_interaction, [0.025, 0.0975])
 quantile(stats_difference.estimate_interaction, [0.025, 0.0975])
 
-csvwrite('tstat_permutation', stats_difference.tstat_interaction)
-csvwrite('estimate_permutation', stats_difference.estimate_interaction)
+csvwrite('tstat_permutation.csv', stats_difference.tstat_interaction)
+csvwrite('estimate_permutation.csv', stats_difference.estimate_interaction)
 
 
